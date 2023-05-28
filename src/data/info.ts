@@ -1,97 +1,85 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
-  `,
+  baseUrl: 'https://astro-portfolio-uzair.vercel.app',
+  name: 'Moisés Rodríguez',
+  jobDescription: 'Fullstack Developer',
+  about: ``,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
-      description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
-      ],
+      name: 'Codurance (Remote)',
+      location: 'Barcelona, Spain',
+      startDate: 'May 2023',
+      endDate: 'Present',
+      description: [],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: 'Swipoo (Remote)',
+      location: 'Barcelona, Spain',
+      startDate: 'Apr 2022',
+      endDate: 'May 2023',
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
-      ],
-    },
-
-    {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
-      description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "- Developed new NextJS Swipoo's frontend page.",
+        "- Migrated old Swipoo's frontend page.",
+        "- Developed multiple endpoints for main Swipoo's backend service.",
+        "- Developed Swipoo's headless CMS.",
+        "- Developed Swipoo's document collection form, fully tested with Cypress.",
+        '- Expanded DevOps implementations and infrastructure, integrating external monitoring tools.',
+        '- Participate in DevOps and infrastructure management, using AWS tools such as EC2, EBS, S3, CodePipeline, etc.',
+        '- Integrate different third-party services through SDKs, APIs, and WebHooks',
+        '- Participate in the development of microservices and migration from monolith infrastructure.',
+        '- Design, lead and participate in the development of a new enrollment service.',
+        '- Design, lead and participate in the development of a new digital signature service.',
+        '- Design, lead and participate in the development of a new notifications service.',
+        '- Mentor new teach team integrants',
+        '- Developed Slack bot in Golang',
+        '- Lead the migration to IaC using Terraform and Terragrunt.',
       ],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: 'Fullstack Development Bootcamp',
+      location: 'ISDI Coders (before known as Skylab Coders Academy)',
+      startDate: '2021',
+      endDate: '2021',
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        '+1000 hours of intensive training in Fullstack (MERN Stack) Development.',
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
+      name: 'MSc in Physical Therapy',
+      location: 'University of Alcalá',
+      startDate: '2019',
+      endDate: '2021',
+      description: [],
     },
     {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
+      name: 'Degree in Physical Therapy',
+      location: 'University of Alcalá',
+      startDate: '2015',
+      endDate: '2019',
+      description: [],
     },
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    facebook: '',
+    twitter: '',
+    github: 'https://github.com/moisesrj97',
+    email: 'moisesrj97@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/moisesrodriguezjurado/',
   },
 
+  // Change this and add tag system
   projects: [
     {
-      title: "Astro Portfolio",
+      title: 'Astro Portfolio',
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: '/assets/images/astro-portfolio.png',
+      githubUrl: 'https://github.com/uzzii-21/astro-portfolio',
+      liveUrl: 'https://astro-portfolio-uzair.vercel.app/',
     },
   ],
 };
