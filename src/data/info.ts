@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: 'https://astro-portfolio-uzair.vercel.app',
+  baseUrl: 'https://moisesrodriguez.netlify.app',
   name: 'Moisés Rodríguez',
   jobDescription: 'Fullstack Developer',
   about: ``,
@@ -79,7 +79,7 @@ export const info = {
       isFeatured: true,
       thumbnail: '/assets/images/astro-portfolio.png',
       githubUrl: 'https://github.com/uzzii-21/astro-portfolio',
-      liveUrl: 'https://astro-portfolio-uzair.vercel.app/',
+      liveUrl: 'https://moisesrodriguez.netlify.app/',
     },
   ],
 };
