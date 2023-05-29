@@ -14,7 +14,7 @@ export const info = {
     },
 
     {
-      name: 'Swipoo (Remote)',
+      name: 'Swipoo (Remote) - Fullstack Developer',
       location: 'Barcelona, Spain',
       startDate: 'Apr 2022',
       endDate: 'May 2023',
@@ -34,6 +34,15 @@ export const info = {
         '- Mentor new teach team integrants',
         '- Developed Slack bot in Golang',
         '- Lead the migration to IaC using Terraform and Terragrunt.',
+      ],
+    },
+    {
+      name: 'ISDI Coders - Assistant Teacher',
+      location: 'Madrid, Spain',
+      startDate: 'Dec 2021',
+      endDate: 'Apr 2022',
+      description: [
+        'Guide and mentor Bootcamp students learning web development. Assisting the principal teacher in resolving doubts, generating resources, and teaching about the tools, technologies, and good practices imparted in the class both in-person and online.',
       ],
     },
   ],
