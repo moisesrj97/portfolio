@@ -1,6 +1,6 @@
 /* gradient heading */
 .main-heading {
-  display: inline-block;
+  display: inline;
   margin: 2rem 0;
   font-style: normal;
   font-weight: 600;
@@ -8,7 +8,7 @@
     89.81deg,
     #9845e8 -1.72%,
     #33d2ff 54.05%,
-    #dd5789 99.78%
+    #ed8caf 99.78%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

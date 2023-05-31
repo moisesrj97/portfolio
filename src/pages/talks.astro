@@ -1,0 +1,102 @@
+---
+import { info } from '@data';
+
+import ProjectsWrapper from '@components/general/ProjectsWrapper.astro';
+import MetaHead from '@components/general/MetaHead.astro';
+import Layout from '@layouts/Layout.astro';
+
+type TalksInYears = {
+  year: number;
+  talks: {
+    title: string;
+    date: Date;
+    video?: string;
+    place: string;
+    slides: string;
+  }[];
+}[];
+
+const TalksInYears: TalksInYears = info.talks.reduce((acc, talk) => {
+  const year = new Date(talk.date).getFullYear();
+  const yearIndex = acc.findIndex((item) => item.year === year);
+
+  if (yearIndex === -1) {
+    acc.push({
+      year,
+      talks: [talk],
+    });
+  } else {
+    acc[yearIndex].talks.push(talk);
+  }
+
+  return acc;
+}, []);
+---
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <MetaHead
+      title={'Talks'}
+      description={'All my talks in one place'}
+      ogImageUrl={'/assets/images/profile.png'}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <h1 style='line-height: 1.2;'>Talks</h1>
+      <ul class='mt-10'>
+        {
+          TalksInYears.sort((a, b) => b.year - a.year).map((talk) => (
+            <>
+              <p class='text-black dark:text-white text-3xl font-light'>
+                {talk.year}
+              </p>
+              <div class='border-l ml-2 pl-4 border-dashed border-black dark:border-white'>
+                {talk.talks
+                  .sort((a, b) => b.date.getTime() - a.date.getTime())
+                  .map((talk) => (
+                    <li class='mb-8 mt-4 flex flex-col'>
+                      <p class='text-black dark:text-white text-xs'>
+                        {talk.date.toLocaleDateString('es-ES')}
+                      </p>
+
+                      <p class='text-black dark:text-white font-bold text-xl gap-3 mt-1'>
+                        {talk.title}
+                      </p>
+                      <div class='flex gap-3 mt-1 mb-2'>
+                        <p class='text-black dark:text-white'>→</p>
+                        <a
+                          class='text-black dark:text-white font-bold text-lg'
+                          href={talk.slides}
+                          target='_blank'
+                          aria-label='Slides of the talk'
+                        >
+                          📁
+                        </a>
+                        {talk.video && (
+                          <a
+                            class='text-black dark:text-white font-light text-lg'
+                            href={talk.video}
+                            target='_blank'
+                            aria-label='Video recording of the talk'
+                          >
+                            ⏯️
+                          </a>
+                        )}
+                      </div>
+
+                      <p class='text-black dark:text-white text-sm'>
+                        {talk.place}{' '}
+                      </p>
+                    </li>
+                  ))}
+              </div>
+            </>
+          ))
+        }
+      </ul>
+    </Layout>
+  </body>
+</html>

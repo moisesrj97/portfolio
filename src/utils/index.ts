@@ -1,8 +1,8 @@
 const createLogo = (name) =>
   name
-    .split(" ")
+    .split(' ')
     .map((word) => word[0])
-    .join("")
-    .toUpperCase();
+    .join('')
+    .toUpperCase() + '. 🤖';
 
 export { createLogo };

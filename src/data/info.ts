@@ -2,7 +2,8 @@ export const info = {
   baseUrl: 'https://moisesrodriguez.netlify.app',
   name: 'Moisés Rodríguez',
   jobDescription: 'Fullstack Developer',
-  about: ``,
+  about:
+    "I'm a Fullstack Developer with a background in Physical Therapy. I'm passionate about technology, animals, sports and videogames. I'm a fast learner and I love to work in teams. I'm always looking for new challenges and opportunities to grow as a professional and as a person.",
 
   experience: [
     {
@@ -69,26 +70,83 @@ export const info = {
       location: 'University of Alcalá',
       startDate: '2015',
       endDate: '2019',
-      description: [],
+      description: ['- Graduated with honors'],
     },
   ],
 
   socialMedia: {
-    facebook: '',
-    twitter: '',
     github: 'https://github.com/moisesrj97',
-    email: 'moisesrj97@gmail.com',
+    email: 'mailto:moisesrj97@gmail.com',
     linkedin: 'https://www.linkedin.com/in/moisesrodriguezjurado/',
   },
 
-  // Change this and add tag system
   projects: [
     {
-      title: 'Astro Portfolio',
+      title: 'Express-o-Matic',
       isFeatured: true,
-      thumbnail: '/assets/images/astro-portfolio.png',
-      githubUrl: 'https://github.com/uzzii-21/astro-portfolio',
-      liveUrl: 'https://moisesrodriguez.netlify.app/',
+      thumbnail: '/assets/images/express-o-matic.jpeg',
+      githubUrl: 'https://github.com/moisesrj97/express-o-matic',
+      liveUrl: 'https://github.com/moisesrj97/express-o-matic',
+    },
+    {
+      title: 'dotenv-switch',
+      isFeatured: true,
+      thumbnail: '/assets/images/dotenv-switch.jpeg',
+      githubUrl: 'https://github.com/moisesrj97/dotenv-switch',
+      liveUrl: 'https://github.com/moisesrj97/dotenv-switch',
+    },
+    {
+      title: 'Nats GUI',
+      isFeatured: true,
+      thumbnail: '/assets/images/nats-gui.jpeg',
+      githubUrl: 'https://github.com/moisesrj97/nats-gui',
+      liveUrl: 'https://github.com/moisesrj97/nats-gui',
+    },
+  ],
+  talks: [
+    {
+      title: 'Storybook: Beyond the reusable component',
+      date: new Date('2022-09-16'),
+      place: "🇪🇸 Swipoo's Lightning Talks.",
+      slides:
+        'https://docs.google.com/presentation/d/1Qet9EsvvNQtAddBw-XVDNK3HRW27ti7m8GHNpeC3Ys8/edit?usp=sharing',
+    },
+    {
+      title: 's3 pre-signed url',
+      date: new Date('2022-10-28'),
+      place: "🇪🇸 Swipoo's Lightning Talks.",
+      slides:
+        'https://docs.google.com/presentation/d/1zooyU-iIB2b992TkOah9FNRu_oLm223S6WJu-jltgrM/edit?usp=sharing',
+    },
+    {
+      title: 'DDD - Hexagonal 101. Good practices at macro scale',
+      date: new Date('2022-11-25'),
+      place: '🇪🇸 ISDI Coders.',
+      slides:
+        'https://docs.google.com/presentation/d/1oSk1uZyfIqpn4Axc8aTUO5NKr8Karzf7sH2oNd3VB7A/edit?usp=sharing',
+    },
+    {
+      title: 'DDD - Hexagonal 101. Clean architecture without dying trying',
+      date: new Date('2023-03-10'),
+      place: '🇪🇸 ISDI Coders.',
+      slides:
+        'https://docs.google.com/presentation/d/1KY5G3GLGLpF7CSnyN99JuVsX2kkgn2PDzy41rG7HL6k/edit?usp=sharing',
+    },
+    {
+      title: 'Reinventadxs',
+      date: new Date('2023-03-30'),
+      place: '🇪🇸 MIL - My tech plan.',
+      video: 'https://youtu.be/oypKfP5AZqA?t=1337',
+      slides:
+        'https://docs.google.com/presentation/d/1KcCzLxw6MBejIwln4rnyDaaAHkw34OE5Euwh-eydHJM/edit?usp=sharing',
+    },
+    {
+      title:
+        'Terraform - Because we are better at coding than we are at infrastructure',
+      date: new Date('2023-04-21'),
+      place: "🇪🇸 Swipoo's Lightning Talks.",
+      slides:
+        'https://docs.google.com/presentation/d/1qoiowrosbgZrdrbZz_c0OFOr2lmnZrE1G-q_NqZV-Zc/edit?usp=sharing',
     },
   ],
 };
