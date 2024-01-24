@@ -3,14 +3,21 @@ export const info = {
   name: 'Moisés Rodríguez',
   jobDescription: 'Fullstack Developer',
   about:
-    "I'm a Fullstack Developer with a background in Physical Therapy. I'm passionate about technology, animals, sports and videogames. I'm a fast learner and I love to work in teams. I'm always looking for new challenges and opportunities to grow as a professional and as a person.",
+    "I'm a Software Developer with a background in Physical Therapy. I'm passionate about technology, animals, sports and videogames. I'm a fast learner and I love to work in teams. I'm always looking for new challenges and opportunities to grow as a professional and as a person.",
 
   experience: [
     {
-      name: 'Codurance (Remote)',
+      name: 'Codurance (Remote) - Software Craftsperson',
+      location: 'Barcelona, Spain',
+      startDate: 'Aug 2023',
+      endDate: 'Present',
+      description: [],
+    },
+    {
+      name: 'Codurance (Remote) - Software Craftsperson In Training',
       location: 'Barcelona, Spain',
       startDate: 'May 2023',
-      endDate: 'Present',
+      endDate: 'Aug 2023',
       description: [],
     },
 
@@ -147,6 +154,11 @@ export const info = {
       place: "🇪🇸 Swipoo's Lightning Talks.",
       slides:
         'https://docs.google.com/presentation/d/1qoiowrosbgZrdrbZz_c0OFOr2lmnZrE1G-q_NqZV-Zc/edit?usp=sharing',
+    },
+    {
+      title: 'Kitchen Nightmares - Understanding Message Brokers',
+      date: new Date('2023-12-15'),
+      place: "🇪🇸 Codurance's Open Space",
     },
   ],
 };
