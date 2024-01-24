@@ -65,16 +65,16 @@ const TalksInYears: TalksInYears = info.talks.reduce((acc, talk) => {
                       <p class='text-black dark:text-white font-bold text-xl gap-3 mt-1'>
                         {talk.title}
                       </p>
-                      <div class='flex gap-3 mt-1 mb-2'>
+                      {(talk.video || talk.slides) && <div class='flex gap-3 mt-1 mb-2'>
                         <p class='text-black dark:text-white'>→</p>
-                        <a
+                        {talk.slides && <a
                           class='text-black dark:text-white font-bold text-lg'
                           href={talk.slides}
                           target='_blank'
                           aria-label='Slides of the talk'
                         >
                           📁
-                        </a>
+                        </a>}
                         {talk.video && (
                           <a
                             class='text-black dark:text-white font-light text-lg'
@@ -85,7 +85,7 @@ const TalksInYears: TalksInYears = info.talks.reduce((acc, talk) => {
                             ⏯️
                           </a>
                         )}
-                      </div>
+                      </div>}
 
                       <p class='text-black dark:text-white text-sm'>
                         {talk.place}{' '}
