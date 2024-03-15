@@ -11,7 +11,10 @@ export const info = {
       location: 'Barcelona, Spain',
       startDate: 'Aug 2023',
       endDate: 'Present',
-      description: [],
+      description: [
+        "- Project 1: .Net, Blazor, MongoDB, AWS",
+        "- Project 2: VueJS, SpringBoot, MySql, AWS"
+      ],
     },
     {
       name: 'Codurance (Remote) - Software Craftsperson In Training',
@@ -159,6 +162,11 @@ export const info = {
       title: 'Kitchen Nightmares - Understanding Message Brokers',
       date: new Date('2023-12-15'),
       place: "🇪🇸 Codurance's Open Space",
+    },
+    {
+      title: 'Basic TDD Workshop',
+      date: new Date('2024-03-15'),
+      place: "🇪🇸 Software Crafters Madrid x Iberia"
     },
   ],
 };
