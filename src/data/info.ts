@@ -3,7 +3,7 @@ export const info = {
   name: 'Moisés Rodríguez',
   jobDescription: 'Fullstack Developer',
   about:
-    "I'm a Software Developer with a background in Physical Therapy. I'm passionate about technology, animals, sports and videogames. I'm a fast learner and I love to work in teams. I'm always looking for new challenges and opportunities to grow as a professional and as a person.",
+    "I'm a Software Developer (also a physical therapist in a past life!). I'm passionate about technology, animals, sports and videogames. I'm a fast learner and I love to work in teams. I'm always looking for new challenges and opportunities to grow as a professional and as a person.",
 
   experience: [
     {
@@ -12,8 +12,8 @@ export const info = {
       startDate: 'Aug 2023',
       endDate: 'Present',
       description: [
-        "- Project 1: .Net, Blazor, MongoDB, AWS",
-        "- Project 2: VueJS, SpringBoot, MySql, AWS"
+        '- Project 1: .Net, Blazor, MongoDB, AWS',
+        '- Project 2: VueJS, SpringBoot, MySql, AWS, ReactJS, NodeJS',
       ],
     },
     {
@@ -166,7 +166,14 @@ export const info = {
     {
       title: 'Basic TDD Workshop',
       date: new Date('2024-03-15'),
-      place: "🇪🇸 Software Crafters Madrid x Iberia"
+      place: '🇪🇸 Software Crafters Madrid x Iberia',
+    },
+    {
+      title: 'Outside-In TDD 101. How to implement it in our daily work',
+      date: new Date('2024-04-29'),
+      place: '🇪🇸 Isdi Coders',
+      slides:
+        'https://docs.google.com/presentation/d/1RDj_-GrWYbqeduLPWtDKOpV3ikwDVI6pNdX7hiV56tg/edit?usp=sharing',
     },
   ],
 };
