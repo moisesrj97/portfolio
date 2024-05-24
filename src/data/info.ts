@@ -7,26 +7,33 @@ export const info = {
 
   experience: [
     {
-      name: 'Codurance (Remote) - Software Craftsperson',
-      location: 'Barcelona, Spain',
-      startDate: 'Aug 2023',
-      endDate: 'Present',
+      name: 'Codurance - Senior Software Craftsperson',
+      location: 'Barcelona, Spain (Remote)',
+      startDate: 'May 2024',
+      endDate: 'now',
       description: [
         '- Project 1: .Net, Blazor, MongoDB, AWS',
-        '- Project 2: VueJS, SpringBoot, MySql, AWS, ReactJS, NodeJS',
+        '- Project 2: VueJS, SpringBoot, PHP, Laravel, Drupal, MySql, AWS, ReactJS, NodeJS',
       ],
     },
     {
-      name: 'Codurance (Remote) - Software Craftsperson In Training',
-      location: 'Barcelona, Spain',
+      name: 'Codurance - Software Craftsperson',
+      location: 'Barcelona, Spain (Remote)',
+      startDate: 'Aug 2023',
+      endDate: 'May 2024',
+      description: [],
+    },
+    {
+      name: 'Codurance - Software Craftsperson In Training',
+      location: 'Barcelona, Spain (Remote)',
       startDate: 'May 2023',
       endDate: 'Aug 2023',
       description: [],
     },
 
     {
-      name: 'Swipoo (Remote) - Fullstack Developer',
-      location: 'Barcelona, Spain',
+      name: 'Swipoo - Fullstack Developer',
+      location: 'Barcelona, Spain (Remote)',
       startDate: 'Apr 2022',
       endDate: 'May 2023',
       description: [
