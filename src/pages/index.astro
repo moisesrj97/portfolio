@@ -4,11 +4,10 @@ import { info } from '@data';
 import Layout from '@layouts/Layout.astro';
 import Hero from '@components/home/Hero.astro';
 import Experience from '@components/home/Experience.astro';
-import ProjectsWrapper from '@components/general/ProjectsWrapper.astro';
 import MetaHead from '@components/general/MetaHead.astro';
 
 const featureProjects = info.projects
-  .filter((project) => project.isFeatured)
+  .filter(project => project.isFeatured)
   .filter((_, index) => index < 6);
 ---
 
@@ -28,8 +27,15 @@ const featureProjects = info.projects
       <Experience title={'EXPERIENCE'} details={info.experience} />
       <Experience title={'EDUCATION'} details={info.education} />
       <section>
-        <h2 class='w-[15rem] dark:text-light mt-16'>FEATURED PROJECTS</h2>
-        <ProjectsWrapper projects={featureProjects} />
+        <p class='text-black text-2xl w-full text-center dark:text-light mt-4'>
+          👽 Psst! Don't leave without checking my <a
+            class='text-black dark:text-light underline hover:text-blue'
+            href='/talks'>last talks</a
+          > and <a
+            class='text-black dark:text-light underline hover:text-blue'
+            href='/projects'>featured projects</a
+          >!
+        </p>
       </section>
     </Layout>
   </body>
