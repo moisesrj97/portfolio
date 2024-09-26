@@ -3,7 +3,7 @@ export const info = {
   name: 'Moisés Rodríguez',
   jobDescription: 'Fullstack Developer',
   about:
-    "I'm a Software Developer (also a physical therapist in a past life!). I'm passionate about technology, animals, sports and videogames. I'm a fast learner and I love to work in teams. I'm always looking for new challenges and opportunities to grow as a professional and as a person.",
+    "I'm a Software Crafter focused on pragmatism and excellence. I'm passionate about technology, animals, sports and videogames. I'm a fast learner, I excel working with teams and I get things done. I'm always looking for new challenges and opportunities to grow as a professional and as a person.",
 
   experience: [
     {
@@ -12,8 +12,14 @@ export const info = {
       startDate: 'May 2024',
       endDate: 'now',
       description: [
-        '- Project 1: .Net, Blazor, MongoDB, AWS',
-        '- Project 2: VueJS, SpringBoot, PHP, Laravel, Drupal, MySql, AWS, ReactJS, NodeJS',
+        '- Took a key role in the foundations of an internal project using .NET, Blazor, and MongoDB.',
+        "- Worked in a Codurance team as well as embedded in client teams through different parts of the client's product, working with technologies such as VueJS 2 and 3, Java Springboot, ReactJS, NodeJS, Typescript, PHP, Laravel, Drupal, and MySQL.",
+        '- Lead tech discussions with the client, helping with decision-making, leading my team, and optimizing the work streams.',
+        "- Actively participated in resolving different incidents with the client's team.",
+        '- Act as a counselor of the client in different topics related to ways of working and testing.',
+        '- Helped prepare proposals for clients.',
+        '- Participated in multiple activities with the community, leading workshops and giving talks about multiple topics.',
+        '- Helped in the elaboration of internal and external courses.',
       ],
     },
     {
@@ -67,8 +73,15 @@ export const info = {
 
   education: [
     {
+      name: 'BSs in Computer Science',
+      location: 'Universitat Oberta de Catalunya',
+      startDate: '2023',
+      endDate: '-',
+      description: ['Part-time student, currently studying.'],
+    },
+    {
       name: 'Fullstack Development Bootcamp',
-      location: 'ISDI Coders (before known as Skylab Coders Academy)',
+      location: 'ISDI Coders (formerly known as Skylab Coders Academy)',
       startDate: '2021',
       endDate: '2021',
       description: [
@@ -83,7 +96,7 @@ export const info = {
       description: [],
     },
     {
-      name: 'Degree in Physical Therapy',
+      name: 'BSc in Physical Therapy',
       location: 'University of Alcalá',
       startDate: '2015',
       endDate: '2019',
