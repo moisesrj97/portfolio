@@ -195,5 +195,17 @@ export const info = {
       slides:
         'https://docs.google.com/presentation/d/1RDj_-GrWYbqeduLPWtDKOpV3ikwDVI6pNdX7hiV56tg/edit?usp=sharing',
     },
+    {
+      title: 'Github Copilot to improve Developer Experience',
+      date: new Date('2024-10-17'),
+      place: '🇪🇸 Software Crafters Madrid x Iberia',
+    },
+    {
+      title: 'Kitchen Nightmares - Understanding Message Brokers',
+      date: new Date('2024-10-26'),
+      place: '🇪🇸 Software Crafters Barcelona 2024',
+      slides:
+        'https://docs.google.com/presentation/d/1PDPv_sfGZx3aYji_3shiftOChKVHGLa02kQDe40jaI0/edit?usp=sharing',
+    },
   ],
 };
