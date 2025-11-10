@@ -6,11 +6,18 @@ export const info = {
     "I'm a Software Crafter focused on pragmatism and excellence. I'm passionate about technology, animals, sports and videogames. I'm a fast learner, I excel working with teams and I get things done. I'm always looking for new challenges and opportunities to grow as a professional and as a person.",
 
   experience: [
+      {
+          name: 'Genially - Software Engineer',
+          location: 'Córdoba, Spain (Remote)',
+          startDate: 'Oct 2024',
+          endDate: 'now',
+          description: [],
+      },
     {
       name: 'Codurance - Senior Software Craftsperson',
       location: 'Barcelona, Spain (Remote)',
       startDate: 'May 2024',
-      endDate: 'now',
+      endDate: 'Oct 2024',
       description: [
         '- Took a key role in the foundations of an internal project using .NET, Blazor, and MongoDB.',
         "- Worked in a Codurance team as well as embedded in client teams through different parts of the client's product, working with technologies such as VueJS 2 and 3, Java Springboot, ReactJS, NodeJS, Typescript, PHP, Laravel, Drupal, and MySQL.",
