@@ -214,5 +214,10 @@ export const info = {
       slides:
         'https://docs.google.com/presentation/d/1PDPv_sfGZx3aYji_3shiftOChKVHGLa02kQDe40jaI0/edit?usp=sharing',
     },
+      {
+          title: 'Pair Programming',
+          date: new Date('2025-10-02'),
+          place: '🇪🇸 Genially Tech Talk'
+      },
   ],
 };
