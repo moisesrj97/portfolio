@@ -1,35 +1,35 @@
 ---
-import { info } from '@data';
+import { info } from "@data";
 
-import ProjectsWrapper from '@components/general/ProjectsWrapper.astro';
-import MetaHead from '@components/general/MetaHead.astro';
-import Layout from '@layouts/Layout.astro';
+import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+import Layout from "@layouts/Layout.astro";
 
 type TalksInYears = {
-  year: number;
-  talks: {
-    title: string;
-    date: Date;
-    video?: string;
-    place: string;
-    slides: string;
-  }[];
+	year: number;
+	talks: {
+		title: string;
+		date: Date;
+		video?: string;
+		place: string;
+		slides: string;
+	}[];
 }[];
 
 const TalksInYears: TalksInYears = info.talks.reduce((acc, talk) => {
-  const year = new Date(talk.date).getFullYear();
-  const yearIndex = acc.findIndex((item) => item.year === year);
+	const year = new Date(talk.date).getFullYear();
+	const yearIndex = acc.findIndex((item) => item.year === year);
 
-  if (yearIndex === -1) {
-    acc.push({
-      year,
-      talks: [talk],
-    });
-  } else {
-    acc[yearIndex].talks.push(talk);
-  }
+	if (yearIndex === -1) {
+		acc.push({
+			year,
+			talks: [talk],
+		});
+	} else {
+		acc[yearIndex].talks.push(talk);
+	}
 
-  return acc;
+	return acc;
 }, []);
 ---
 
