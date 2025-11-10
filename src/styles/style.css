@@ -1,3 +1,5 @@
+/* biome-ignore-all lint/suspicious/noUnknownAtRules: tailwind directives */
+
 /* ========== import font source ========== */
 @import "fonts.css";
 
@@ -38,7 +40,4 @@
 	.footer-icons {
 		@apply dark:text-light flex items-center border border-dark dark:border-light p-4 rounded-lg justify-center;
 	}
-}
-
-html {
 }

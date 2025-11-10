@@ -1,8 +1,8 @@
-const createLogo = (name) =>
-	name
+const createLogo = (name: string) =>
+	`${name
 		.split(" ")
 		.map((word) => word[0])
 		.join("")
-		.toUpperCase() + ". 🤖";
+		.toUpperCase()}. 🤖`;
 
 export { createLogo };
