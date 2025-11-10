@@ -44,7 +44,7 @@ const TalksInYears: TalksInYears = info.talks.reduce((acc, talk) => {
 
   <body>
     <Layout>
-      <h1 style='line-height: 1.2;'>Talks</h1>
+      <h1 style='line-height: 1.2;' transition:name='talks-title'>Talks</h1>
       <ul class='mt-10'>
         {
           TalksInYears.sort((a, b) => b.year - a.year).map((talk) => (

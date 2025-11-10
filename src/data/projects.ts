@@ -1,11 +1,11 @@
 export const projects = [
-    {
-        title: "Gomander",
-        isFeatured: true,
-        thumbnail: "/assets/images/gomander.png",
-        githubUrl: "https://github.com/lazylabz/gomander-app",
-        liveUrl: "https://lazylabz.github.io/gomander/",
-    },
+	{
+		title: "Gomander",
+		isFeatured: true,
+		thumbnail: "/assets/images/gomander.png",
+		githubUrl: "https://github.com/lazylabz/gomander-app",
+		liveUrl: "https://lazylabz.github.io/gomander/",
+	},
 	{
 		title: "Express-o-Matic (archived)",
 		isFeatured: true,
