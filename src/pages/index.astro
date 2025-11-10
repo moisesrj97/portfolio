@@ -1,10 +1,9 @@
 ---
-import { info } from "@data";
-
-import Layout from "@layouts/Layout.astro";
-import Hero from "@components/home/Hero.astro";
-import Experience from "@components/home/Experience.astro";
 import MetaHead from "@components/general/MetaHead.astro";
+import Experience from "@components/home/Experience.astro";
+import Hero from "@components/home/Hero.astro";
+import { info } from "@data";
+import Layout from "@layouts/Layout.astro";
 
 const featureProjects = info.projects
 	.filter((project) => project.isFeatured)
