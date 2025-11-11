@@ -32,3 +32,9 @@
 		background-position: 0% 50%;
 	}
 }
+
+@layer base {
+	html {
+		scrollbar-gutter: stable;
+	}
+}
