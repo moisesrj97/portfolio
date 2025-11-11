@@ -1,13 +1,19 @@
 ---
 import { info } from "@data";
 import { createLogo } from "@utils";
+
+const addTrailingSlash = (url) => {
+	return url.endsWith("/") ? url : url + "/";
+};
+
+const currentUrl = addTrailingSlash(Astro.url.pathname);
 ---
 
 <header
   class='container flex items-center justify-between h-[80px] sm:h-[123px]'
 >
   <a
-          transition:name={Astro.url.pathname !== "/" ? "index-title" : undefined}
+          transition:name={currentUrl !== "/" ? "index-title" : undefined}
     class='text-2xl dark:text-light font-semibold dark:font-semibold font-outfit'
     href='/'
     >{createLogo(info.name)}
@@ -15,12 +21,12 @@ import { createLogo } from "@utils";
   <nav>
     <ul class='flex items-center'>
       <li>
-        <a transition:name={Astro.url.pathname !== "/projects" ? "projects-title" : undefined} class='p-4 dark:text-light block text-lg' href='/projects'
+        <a transition:name={currentUrl !== "/projects/" ? "projects-title" : undefined} class='p-4 dark:text-light block text-lg' href='/projects'
           >Projects</a
         >
       </li>
       <li>
-        <a transition:name={Astro.url.pathname !== "/talks" ? "talks-title" : undefined} class='p-4 dark:text-light block text-lg' href='/talks'>Talks</a>
+        <a transition:name={currentUrl !== "/talks/" ? "talks-title" : undefined} class='p-4 dark:text-light block text-lg' href='/talks'>Talks</a>
       </li>
       <li>
         <button
