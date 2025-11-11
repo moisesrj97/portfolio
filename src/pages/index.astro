@@ -1,5 +1,6 @@
 ---
 import MetaHead from "@components/general/MetaHead.astro";
+import Disclaimer from "@components/home/Disclaimer.astro";
 import Experience from "@components/home/Experience.astro";
 import Hero from "@components/home/Hero.astro";
 import { info } from "@data";
@@ -25,17 +26,7 @@ const featureProjects = info.projects
       <Hero name={info.name} about={info.about} />
       <Experience title={'EXPERIENCE'} details={info.experience} />
       <Experience title={'EDUCATION'} details={info.education} />
-      <section>
-        <p class='text-black text-2xl w-full text-center dark:text-light mt-4'>
-          👽 Psst! Don't leave without checking my <a
-            class='text-black dark:text-light underline hover:text-blue'
-            href='/talks'>last talks</a
-          > and <a
-            class='text-black dark:text-light underline hover:text-blue'
-            href='/projects'>featured projects</a
-          >!
-        </p>
-      </section>
+      <Disclaimer />
     </Layout>
   </body>
 </html>

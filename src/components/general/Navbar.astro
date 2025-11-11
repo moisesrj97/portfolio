@@ -3,7 +3,7 @@ import { info } from "@data";
 import { createLogo } from "@utils";
 
 const addTrailingSlash = (url) => {
-	return url.endsWith("/") ? url : url + "/";
+	return url.endsWith("/") ? url : `${url}/`;
 };
 
 const currentUrl = addTrailingSlash(Astro.url.pathname);
