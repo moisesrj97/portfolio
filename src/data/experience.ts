@@ -4,7 +4,16 @@ export const experience = [
 		location: "Córdoba, Spain (Remote)",
 		startDate: "Oct 2024",
 		endDate: "now",
-		description: [],
+		description: [
+			"- Played a versatile role, contributing to both front-end and back-end teams.",
+			"- Collaborated with multiple teams across different areas of the product.",
+			"- Worked closely with cross-functional stakeholders, including Product Design (PD), Product Management (PM), Sales, and C-level executives.",
+			"- Contributed to the development of several internal tools; played a key role in redesigning one and improved the performance of a critical request by 3x.",
+			"- Led and contributed to multiple cross-functional initiatives across both front-end and back-end teams.",
+			"- Promoted good practices in software development, including testing and counsel around AI-assisted development as one of the early adopters in the technology team.",
+			"- Spearheaded, alongside another teammate, the full redesign of the product's main dashboard, as well as several management screens or features like \"in-genially\" comments.",
+			"- Took a key role in a small squad responsible for developing a new strategic and differentiating AI-powered product.",
+		],
 	},
 	{
 		name: "Codurance - Senior Software Craftsperson",
