@@ -77,4 +77,11 @@ export const talks = [
 		date: new Date("2025-10-02"),
 		place: "🇪🇸 Genially Tech Talk",
 	},
+	{
+		title: "Pesadilla en la cocina - Entendiendo la comunicación basada en eventos",
+		date: new Date("2026-05-08"),
+		place: "🇪🇸 SalmorejoTech 2026",
+		slides:
+			"https://docs.google.com/presentation/d/1BhQx9dS1epBiKBE9nD6835dxFiMwgvbxzIeAe2gs-fU/edit?usp=sharing",
+	},
 ];
